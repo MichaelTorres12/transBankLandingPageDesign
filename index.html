@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="transbank">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Transbank</title>
+        <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+        <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">  -->
+        <link rel="stylesheet" href="style.css">
+      </head>
+
+    <body>
+        <main>
+            <div class="main">
+                <div class="titulo">
+                    <h3>Smart POS</h3>
+                    <p>Vende más aceptando pagos con tarjetas de crédito (con o sin cuotas), débito y prepago</p>
+                    <div class="contenedor-precio">
+                        <div class="precio">
+                            <span>$9.990</span>
+                            <p>/IVA incluido</p>
+                        </div>
+                        <p>Valor arriendo mensual <span>0,64 UF + IVA.</span></p>
+                    </div>
+                    <div class="detalles_btn">
+                        <button class="btn-danger">Contrata</button>
+                        <a href="#"> <p>Ver detalle</p> <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M11 17C10.744 17 10.488 16.902 10.293 16.707C9.90201 16.316 9.90201 15.684 10.293 15.293L13.598 11.988L10.418 8.695C10.035 8.297 10.046 7.664 10.443 7.281C10.841 6.898 11.474 6.909 11.857 7.305L15.719 11.305C16.098 11.698 16.093 12.321 15.707 12.707L11.707 16.707C11.512 16.902 11.256 17 11 17Z" fill="#D5006C"/>
+                            </svg> </a>
+                    </div>
+                </div>
+                <img src="img/920-transbank-pos-junio-2021-29775-2.webp" alt="Imagen" >
+            </div>
+        </main>
+
+        <section class="container options">
+            <div class="option">
+                <figure>
+                    <img src="img/36.webp" alt="Motocicle" >
+                </figure>
+                <div>
+                    <h4>Envío gratis</h4>
+                    <p>Recibe tu equipo sin costo en cualquier región de Chile.</p>
+                </div>
+            </div>
+            <div class="option">
+                <figure>
+                    <img src="img/celular&faceid.png" alt="celular&face" >
+                </figure>
+                <div>
+                    <h4>Transacciones seguras</h4>
+                    <p>Vende con el respaldo y seguridad Transbank.</p>
+                </div>
+            </div>
+            <div class="option">
+                <figure>
+                    <img src="img/transfiere.webp" alt="Transferencia" >
+                </figure>
+                <div>
+                    <h4>Calcula tu comisión por venta</h4>
+                    <p>Para cualquier tipo de tarjeta, simula tu comisión por venta <a href="#">aquí</a></p>
+                </div>
+            </div>
+        </section>
+
+        <section class="container">
+            <div class="caracteristicas-head">
+                <h3>Características del Smart POS</h3>
+                <p>Un punto de venta inteligente que apoyará la gestión de tu negocio desde cualquier lugar de tu local.</p>
+            </div>
+            <div class="caracteristicas">
+                <div class="content-caracteristicas">
+                    <div class="caracteristica">
+                        <h4>Conexión.</h4>
+                        <p>Conexión mediante señal de telefonía celular. <strong>Incluye chip 4G de telefonía móvil y conexión vía WIFI.</strong></p>
+                    </div>
+                    <div class="caracteristica">
+                        <h4>Inalámbrico.</h4>
+                        <p>Muévete por donde quieras en tu punto de venta, siempre con una <strong>carga superior al 35%.</strong></p>
+                    </div>
+                    <div class="caracteristica">
+                        <h4>Medios de pago.</h4>
+                        <p>Permite pago con débito, crédito y prepago, mediante lectura de banda, chip y sin contacto.</p>
+                    </div>
+                    <div class="caracteristica">
+                        <h4>Pensado para comercios.</h4>
+                        <p>Que buscan <strong>gestionar y llevar un control de stock digitalmente</strong> de su negocio.</p>
+                    </div>
+
+                    <div class="boton">
+                        <picture>
+                            <img src="img/37.svg" alt="Imagen" >
+                        </picture>
+                        <p>Revisa nuestro <a href="https://publico.transbank.cl/comparador">comparador de productos</a> para ver la mejor alternativa para tu negocio.</p>
+                    </div>
+                </div>
+                <picture>
+                    <img src="img/smartpos-ficha-1.webp" alt="Smart Pos" > 
+                </picture>
+            </div>
+        </section>
+
+        <section class="spWrapper">
+
+            <!--Part of ways to pay/Partes de pago-->
+            <div class="containerWaysToPay">
+                <h2>Distintas formas de cobrar</h2>
+                <div class="waysToPayButtons">
+                    <button class="selectable-button" id="pccButton">Pagos con chip</button>
+                    <button class="selectable-button" id="scButton">Sin contacto</button>
+                    <button class="selectable-button" id="bmButton">Banda magnética</button>
+                    <button class="selectable-button" id="pcnButton">Pago con NFC</button>
+                </div>
+                <div class="waysToPayInfo">
+                    <div class="pccInfo">
+                        <div id="pccText">
+                            <h3>Pagos con chip</h3>
+                            <p>Con tu Smart Pos, tus clientes podrán pagar fácilmente con tarjetas que tengan un chip inteligente<p>
+                        </div>
+                        <picture>
+                            <img src="./img/card_bot 1.png" alt="">
+                        </picture>
+                    </div>
+                    <div class="scInfo">
+                        <picture>
+                            <img src="./img/card_bot 2.png" alt="">
+                        </picture>
+                        <div id="scText">
+                            <h3>Sin contacto</h3>
+                            <p>Completa la experiencia de tus clientes con la tecnología contactless que incluye tu Smart Pos.<p>
+                        </div>
+                    </div>
+                    <div class="bmInfo">
+                        <div id="bmText">
+                            <h3>Banda magnetica</h3>
+                            <p>¿La tarjeta de tu cliente tiene el chip roto o incluso no tiene?
+                                Con tu Smart POS, no tendrás problemas ya que incluye la tecnología de banda magnética para que no pierdas ninguna venta.<p>
+                        </div>
+                        <picture>
+                            <img src="./img/card_bot 3.png" alt="">
+                        </picture>
+                    </div>
+                    <div class="pgnInfo">
+                        <picture>
+                            <img src="./img/card_bot 4.png" alt="">
+                        </picture>
+                        <div id="pgnText">
+                            <h3>Pago con NFC</h3>
+                            <p>Tu Smart POS trae la última tecnología de pago NFC, ahora tus clientes pueden pagar con Google Pay, Garmin, Fitbit y Apple Pay. Entrégales a tus clientes seguridad y comodidad<p>
+                        </div>
+                    </div>
+        
+                </div>
+            </div>
+            
+    
+            <!-- Brands/Marcas -->
+            <div class="brands">
+                <div class="rowWrapper">
+                    <div class="row">
+                        <picture>
+                            <img src="./img/International.svg" alt="Mastercard">
+                        </picture>
+                        <picture>
+                            <img src="./img/International (1).svg" alt="Visa">
+                        </picture>
+                        <picture>
+                            <img src="./img/logo.svg" alt="RedCompra">
+                        </picture>
+                        <picture>
+                            <img src="./img/GooglePay.svg" alt="GooglePay">
+                        </picture>
+                        <picture>
+                            <img src="./img/ApplePay.svg" alt="ApplePay">
+                        </picture>
+                        <picture>
+                            <img src="./img/image-12.webp" alt="FitbitPay">
+                        </picture>
+                        <picture>
+                            <img src="./img/Garmin.svg" alt="Garmin">
+                        </picture>
+                    </div>
+                </div>
+            </div>
+            
+    
+    
+            <!--Do you already have your Smart POS?/Ya tienes tu Smart POS-->
+            <div class="smartPOS">
+                <div class="smartPOSText">
+                    <h2>¿Ya tienes tu Smart POS?</h2>
+                    <p>Si ya compraste tu Smart POS y no sabes como<br>empezar a utilizarla, te dejamos un video ayuda <br>para su activación</p>
+                    <hr>
+                </div>
+                <div class="smartPOSImgCTA">
+                    <iframe title="Video" src="https://www.youtube.com/embed?v=YUqUtsrhjGE" frameborder="150" loading="lazy"></iframe>
+                    <div class="buttonSmartPOS">
+                        <button>Conoce Smart POS</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Scripts de JQuery-->
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js">
+        </script>
+        <script src="main.js"></script>
+    
+    </body>
+</html>
